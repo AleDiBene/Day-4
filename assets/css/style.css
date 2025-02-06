@@ -165,7 +165,8 @@ p {
   color: grey;
 }
 iframe {
-  border-radius: 10%;
+  width: 100%;
+  border-radius: 20px;
 }
 footer {
   line-height: 1.6;
@@ -257,4 +258,9 @@ tbody tr:nth-child(even) {
 
 .date {
   text-align: right;
+}
+
+input {
+  width: 80%;
+  border: 0px;
 }

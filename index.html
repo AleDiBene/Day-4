@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
+    <meta
+      name="description"
+      content="Primi passi operativi per creare un modello di pagina HTML per un post. Scopri come iniziare in modo facile."
+    />
+  </head>
+  <body>
+    <header>
+      <img src="assets/img/logo.svg" />
+      <p>Epicode - il blog dei developers</p>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fas fa-long-arrow-alt-right" style="color: #ffffff"></i>
+              Home
+              <i class="fas fa-long-arrow-alt-left" style="color: #ffffff"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              ><i
+                class="fas fa-long-arrow-alt-right"
+                style="color: #ffffff"
+              ></i>
+              Articoli
+              <i class="fas fa-long-arrow-alt-left" style="color: #ffffff"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              ><i
+                class="fas fa-long-arrow-alt-right"
+                style="color: #ffffff"
+              ></i>
+              Lavora con noi
+              <i class="fas fa-long-arrow-alt-left" style="color: #ffffff"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h1>Come creare un template per i post</h1>
+        <p class="descP">
+          <i class="fas fa-pen-square" style="color: #b8b2b2"></i> di Mario
+          rossi - <i class="fas fa-clock" style="color: #a59c9c"></i> pubblicato
+          il 25-10-2020
+        </p>
+        <article>
+          <p>
+            La prima cosa da fare è suddividere in blocchi logica la pagina,
+            identificando le parti comuni da applicare a tutte le pagine.
+          </p>
+          <p>Le varie aree saranno quindi suddivise in:</p>
+          <ul>
+            <li>Conenuti di intestazione del tag &lt header &gt</li>
+            <li>
+              Contenuti centrali variabili del tag &lt main &gt (corpo
+              principale)
+            </li>
+            <li>
+              Contenuti di fine pagina comuni, da inserire nel tag &lt footer
+              &gt
+            </li>
+          </ul>
+          <h1>Formattazione del codice</h1>
+          <p>
+            Il testo dell'articolo dovrà essere formattato per identificare
+            tutte le parti da selezionare con i CSS. Perciò i passi saranno:
+          </p>
+          <ol>
+            <li>
+              Progettare il markup assegnando ad ogni specifico testo il tag
+              appropriato.
+            </li>
+            <li>
+              Scrivere l'HTML dei tag esterni a quelli interni e dall'alto verso
+              il basso.
+            </li>
+            <li>Applicaer gli stili CSS</li>
+          </ol>
+          <p>
+            L'applicare di stili CSS è cresciuta negli anni fino a raggiungere
+            la diffusione pressochè totale.
+          </p>
+          <table>
+            <caption>
+              Diffusione dei CSS
+            </caption>
+            <tr>
+              <td>Anno</td>
+              <td>% di utilizzo</td>
+              <td>Supporto Browsers</td>
+            </tr>
+            <tr>
+              <td>2000</td>
+              <td>20%</td>
+              <td>17%</td>
+            </tr>
+            <tr>
+              <td>2002</td>
+              <td>35%</td>
+              <td>22%</td>
+            </tr>
+            <tr>
+              <td>2004</td>
+              <td>45%</td>
+              <td>42%</td>
+            </tr>
+            <tr>
+              <td>2008</td>
+              <td>80%</td>
+              <td>51%</td>
+            </tr>
+            <tr>
+              <td>2012</td>
+              <td>100%</td>
+              <td>76%</td>
+            </tr>
+          </table>
+          <p>
+            Un test di validazione potrà essere fatto tramite il
+            <a href="#"> tool online </a> dedicato allo scopo. Una volta
+            ottimizzato il tutto, avremo raggiunto il nostro obbiettivo ed
+            essere stati dei veri developers come loro:
+          </p>
+          <iframe
+            width="460"
+            height="260"
+            src="https://www.youtube.com/embed/vYV1qHbKJas?si=zzV_WMemIQnfvwkM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </article>
+      </section>
+      <section>
+        <div class="card">
+          <h1>Novità</h1>
+          <p>
+            Vuoi rimanere aggiornato su altre Novità del blog? Iscriviti alla
+            nostra newsletter:
+          </p>
+          <form>
+            <input type="email" placeholder="email" />
+            <button type="submit">Iscriviti!</button>
+          </form>
+        </div>
+        <h1>Articoli correlati</h1>
+        <div class="card">
+          <a href="#">Validare codice HTML</a>
+          <p>Categoria: develop</p>
+          <p>Data: 18-9-2020</p>
+        </div>
+        <div class="card">
+          <a href="#">Correggere la sintassi</a>
+          <p>Categoria: develop</p>
+          <p>Data: 16-9-2020</p>
+        </div>
+        <div class="card">
+          <a href="#">Meno Kb nella pagina</a>
+          <p>Categoria: ottimizzazione</p>
+          <p>Data: 30-9-2020</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Blog Epicode &copy 2023</p>
+      <p>
+        Testata online di Mario Rossi, registrata con prot. n213/2018 - via
+        Luigi Einaudi 2 - Milano - P.iva 00112233
+      </p>
+      <a href="#"> info@epicode.school</a>
+    </footer>
+  </body>
+</html>

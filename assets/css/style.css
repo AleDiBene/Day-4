@@ -1,0 +1,195 @@
+body {
+  background-image: url("/assets/img/sfondo.png");
+  background-size: cover; /* Copre l'intera area dello schermo */
+  background-position: center; /* Centra l'immagine */
+  background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+  background-attachment: fixed; /* Mantiene fisso lo sfondo durante lo scroll */
+  font-family: "Poppins", sans-serif; /* Imposta Poppins come font predefinito */
+  font-weight: 400; /* Peso regolare */
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+/* Classi per pesi specifici */
+.poppins-thin {
+  font-weight: 100;
+}
+
+.poppins-extralight {
+  font-weight: 200;
+}
+
+.poppins-light {
+  font-weight: 300;
+}
+
+.poppins-regular {
+  font-weight: 400;
+}
+
+.poppins-medium {
+  font-weight: 500;
+}
+
+.poppins-semibold {
+  font-weight: 600;
+}
+
+.poppins-bold {
+  font-weight: 700;
+}
+
+.poppins-extrabold {
+  font-weight: 800;
+}
+
+.poppins-black {
+  font-weight: 900;
+}
+
+/* Stili per titoli e liste */
+h1 {
+  font-size: 2em;
+  font-weight: 500;
+  margin: 0.5em 0;
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+p {
+  padding: 20px;
+}
+
+h3 {
+  font-size: 1.17em;
+  font-weight: 600;
+  margin: 0.25em 0;
+}
+
+ul,
+ol {
+  padding-left: 1em;
+  margin: 1em 0 1em 1em;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+li {
+  margin: 0.25em 0;
+}
+
+h3 {
+  font-size: 1.17em;
+  font-weight: bold;
+  margin: 0.25em 0;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 1em;
+  margin: 1em 0 1em 1em;
+  font-weight: 300;
+}
+
+ol {
+  font-weight: 300;
+  list-style-type: decimal;
+  padding-left: 1em;
+  margin: 1em 0 1em 1em;
+}
+
+li {
+  font-weight: 300;
+  margin: 0.25em 0; /* TOP 0.25, BOTTOM 0.25, 0 LEFT, 0 RIGHT*/
+}
+
+header,
+main,
+footer {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  width: 30%;
+  margin-top: 20px;
+  padding: 10px;
+  background: rgb(40, 204, 232);
+  background: linear-gradient(
+    183deg,
+    rgba(40, 204, 232, 1) 0%,
+    rgba(28, 108, 145, 1) 100%
+  );
+}
+
+header img {
+  width: 250px;
+  padding: 20px;
+}
+
+header ul,
+header a,
+header p {
+  color: white;
+  font-weight: 500;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+main {
+  text-align: left;
+  background-color: white;
+  margin-top: 20px;
+  padding: 10px;
+  width: 30%;
+}
+
+p {
+  font-weight: 300;
+}
+
+.descP {
+  font-weight: 200;
+  color: grey;
+}
+iframe {
+  border-radius: 10%;
+}
+footer {
+  line-height: 1.6;
+  color: white;
+  width: 30%;
+  margin-top: 20px;
+  padding: 10px;
+  background: rgb(40, 204, 232);
+  background: linear-gradient(
+    183deg,
+    rgba(40, 204, 232, 1) 0%,
+    rgba(28, 108, 145, 1) 100%
+  );
+}
+
+.card {
+  padding: 20px;
+  background-color: rgb(187, 187, 187);
+  margin: 10px 0;
+  border: 1px solid rgb(67, 66, 66);
+}
+
+button {
+  color: white;
+  font-weight: 400;
+  background-color: rgb(109, 109, 224);
+  border: none;
+}

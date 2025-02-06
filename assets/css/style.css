@@ -60,10 +60,6 @@ a {
   text-decoration: none;
 }
 
-p {
-  padding: 20px;
-}
-
 h3 {
   font-size: 1.17em;
   font-weight: 600;
@@ -109,6 +105,7 @@ ol {
 }
 
 li {
+  line-height: 1.6;
   font-weight: 300;
   margin: 0.25em 0; /* TOP 0.25, BOTTOM 0.25, 0 LEFT, 0 RIGHT*/
 }
@@ -157,6 +154,8 @@ main {
 
 p {
   font-weight: 300;
+  padding: 20px 20px 0px 0px;
+  line-height: 1.3;
 }
 
 .descP {
@@ -192,4 +191,55 @@ button {
   font-weight: 400;
   background-color: rgb(109, 109, 224);
   border: none;
+}
+span {
+  background-color: rgb(202, 202, 202);
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+caption {
+  font-weight: 600;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Unisce i bordi delle celle */
+  border: 2px solid white; /* Bordi bianchi esterni */
+  border-bottom: 2px solid blueviolet;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid white; /* Bordi bianchi tra le celle */
+}
+
+thead {
+  background-color: #007bff; /* Colore di sfondo azzurro per l'intestazione */
+  color: white;
+}
+
+.row-blue {
+  background-color: #007bff; /* Righe azzurre */
+  color: white;
+}
+
+.row-white {
+  background-color: white; /* Righe bianche */
+  color: black;
+}
+
+.row-light-gray {
+  background-color: #f0f0f0; /* Righe grigio chiaro */
+  color: black;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f0f0f0; /* Grigio chiaro per righe dispari */
+}
+
+tbody tr:nth-child(even) {
+  background-color: white; /* Bianco per righe pari */
 }
